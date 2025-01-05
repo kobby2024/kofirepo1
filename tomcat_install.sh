@@ -13,7 +13,7 @@ dnf install wget java -y --nogpgcheck
 useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 
 # 3. Download .gz file from tomcat website
-wget -P /tmp https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.88/bin/apache-tomcat-9.0.88.tar.gz
+wget -P /tmp https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.97/bin/apache-tomcat-9.0.97.tar.gz
 
 # 4. Make a directory to store tomcat contents
 mkdir -p /opt/tomcat
